@@ -1,10 +1,10 @@
 package pro.sky.mikhaillukichevcollections.service;
 
-import pro.sky.mikhaillukichevcollections.interfaces.EmployeeService;
-import pro.sky.mikhaillukichevcollections.exceptions.EmployeeAlreadyAddedException;
-import pro.sky.mikhaillukichevcollections.exceptions.EmployeeNotFoundException;
+import pro.sky.mikhaillukichevcollections.model.EmployeeService;
+import pro.sky.mikhaillukichevcollections.exception.EmployeeAlreadyAddedException;
+import pro.sky.mikhaillukichevcollections.exception.EmployeeNotFoundException;
 import org.springframework.stereotype.Service;
-import pro.sky.mikhaillukichevcollections.exceptions.EmployeeStorageIsFullException;
+import pro.sky.mikhaillukichevcollections.exception.EmployeeStorageIsFullException;
 import pro.sky.mikhaillukichevcollections.model.Employee;
 
 import java.util.ArrayList;

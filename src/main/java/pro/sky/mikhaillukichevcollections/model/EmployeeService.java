@@ -1,4 +1,4 @@
-package pro.sky.mikhaillukichevcollections.interfaces;
+package pro.sky.mikhaillukichevcollections.model;
 
 import pro.sky.mikhaillukichevcollections.model.Employee;
 

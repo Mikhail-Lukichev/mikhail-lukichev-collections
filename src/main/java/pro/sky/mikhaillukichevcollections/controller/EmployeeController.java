@@ -2,7 +2,7 @@ package pro.sky.mikhaillukichevcollections.controller;
 
 import org.springframework.web.bind.annotation.*;
 import pro.sky.mikhaillukichevcollections.model.Employee;
-import pro.sky.mikhaillukichevcollections.interfaces.EmployeeService;
+import pro.sky.mikhaillukichevcollections.model.EmployeeService;
 
 import java.util.List;
 
