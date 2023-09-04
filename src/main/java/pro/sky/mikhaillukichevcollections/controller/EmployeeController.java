@@ -9,10 +9,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/employee/")
 public class EmployeeController {
-    @ExceptionHandler(RuntimeException.class)
-    public String handleException(RuntimeException e) {
-        return e.getMessage();
-    }
 
     private final EmployeeService employeeService;
 
